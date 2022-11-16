@@ -1,0 +1,557 @@
+1  clear
+    2  yum update -y
+    3  clear
+    4  wget https://releases.hashicorp.com/terraform/0.13.0/terraform_0.13.0_linux_amd64.zip
+    5  yum install wget -y
+    6  wget https://releases.hashicorp.com/terraform/0.13.0/terraform_0.13.0_linux_amd64.zip
+    7  ls
+    8  tar -xzf terraform_0.13.0_linux_amd64.zip
+    9  unzip terraform_0.13.0_linux_amd64.zip
+   10  yum install unzip -y
+   11  clear
+   12  unzip terraform_0.13.0_linux_amd64.zip
+   13  ls
+   14  cd terraform
+   15  mv terraform /usr/local/bin
+   16  ls -l
+   17  terraform version
+   18  cd /usr/local/bin
+   19  ls
+   20  cat terraform
+   21  clear
+   22  clear
+   23  ls
+   24  terraform version
+   25  clear
+   26  sudo yum install -y yum-utils
+   27  sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/RHEL/hashicorp.repo
+   28  sudo yum -y install terraform
+   29  clear
+   30  terraform -help version
+   31  terraform version
+   32  clear
+   33  vi local.tf
+   34  terraform apply
+   35  terraform version
+   36  ls -l
+   37  cd /usr/local/bin
+   38  ls
+   39  ls -l
+   40  ls -al
+   41  rm terraform
+   42  ls -l
+   43  rm terraform
+   44  ls -l
+   45  cd ..
+   46  cd ..
+   47  cd ..
+   48  cd /home/ec2-user
+   49  ls -l
+   50  rm -rf terraform_0.13.0_linux_amd64.zip
+   51  ls -l
+   52  terraform version
+   53  mkdir terraform
+   54  mv local.tf /terraform
+   55  ls
+   56  cd terraform
+   57  ls
+   58  ls -l
+   59  c ..
+   60  cd ..
+   61  ls
+   62  cd ..
+   63  ls
+   64  cd ec2-user
+   65  cd terraform
+   66  ls
+   67  vi local.tf
+   68  clear
+   69  terraform init
+   70  terraform apply
+   71  ls
+   72  cat terraform.tfstate
+   73  cd /root
+   74  ls
+   75  cat pets.txt
+   76  clear
+   77  hostnamectl set-hostname terraform
+   78  exec bash
+   79  ls
+   80  cd /home/ec2-user
+   81  ls
+   82  clear
+   83  terraform plan
+   84  ls
+   85  cd terraform
+   86  terraform plan
+   87  ls
+   88  vi local.tf
+   89  terraform plan
+   90  terraform apply
+   91  terraform apply
+   92  clear
+   93  cd terraform
+   94  terraform show
+   95  ls
+   96  cd terraform
+   97  ls
+   98  vi local.tf
+   99  terraform plan
+  100  terraform apply
+  101  terraform destroy
+  102  exit
+  103  cd /root
+  104  ls
+  105  ls -la
+  106  cd /root/terraform
+  107  cd /root
+  108  ls
+  109  ls -l
+  110  ls -la
+  111  cd .terraform.d
+  112  ls
+  113  cd .
+  114  ls
+  115  clear
+  116  cd /homee/ec2-user
+  117  cd /home/ec2-user
+  118  ls /root
+  119  ls
+  120  cd terraform
+  121  ls -l
+  122  ls -la
+  123  cd .terraform
+  124  ls -la
+  125  cd providers
+  126  ls -la
+  127  cd registry.terraform.io
+  128  ls -la
+  129  cd hashicorp
+  130  ls -la
+  131  cd local
+  132  ls -la
+  133  cd 2.2.3
+  134  ls
+  135  cd linux_amd64
+  136  ls -la
+  137  cd /home/ec2-user
+  138  ls -la
+  139  cd terraform
+  140  ls
+  141  ls -la
+  142  clear
+  143  ls
+  144  cat local.tf
+  145  vi cat.tf
+  146  terraform plan
+  147  terraform apply
+  148  clear
+  149  cat cat.tf
+  150  vi goat.tf
+  151  terraform plan
+  152  terraform apply
+  153  terraform destroy
+  154  clear
+  155  ls
+  156  rm goat.tf cat.tf
+  157  ls
+  158  vi local.tf
+  159  terraform plan
+  160  terraform apply
+  161  cleat
+  162  clear
+  163  cd terraform
+  164  ls
+  165  vi loca
+  166  terraform destroy
+  167  terraform init
+  168  terraform destroy
+  169  vi local.tf
+  170  terraform destroy
+  171  clear
+  172  terraform init
+  173  clear
+  174  terraform plan
+  175  vi local.tf
+  176  terraform destroy
+  177  terraform plan
+  178  terraform apply
+  179  vi local.tf
+  180  terraform apply
+  181  ls
+  182  clear
+  183  vi variables.tf
+  184  ls -l\
+  185  ls -l
+  186  vi local.tf
+  187  terraform plan
+  188  terraform apply
+  189   vi variables.tf
+  190  terraform plan
+  191  terraform apply
+  192  clear
+  193  ls
+  194  vi variables.tf
+  195  vi local.tf
+  196  terraform plan
+  197  vi local.tf
+  198  terraform plan
+  199  vi local.tf
+  200  cat local.tf
+  201  terraform plan
+  202  ls
+  203  vi variables.tf
+  204  cd ..
+  205  vi vari
+  206  cd terraform
+  207  ls
+  208  vi local.tf
+  209  vi variables.tf
+  210  terraform plan
+  211  terraform apply
+  212  export TF_VAR_length="2"
+  213  export TF_VAR_separator="#"
+  214  terraform apply
+  215  terraform apply -var "separator=." -var "length=6"
+  216  ls
+  217  vi local.tf
+  218  cd ..
+  219  ls
+  220  vi vari
+  221  vi variables.tf
+  222  ls
+  223  cd terraform
+  224  ls
+  225  vi variables.tf
+  226  terraform plan
+  227  vi variables.tf
+  228  vi variables.tf
+  229  terraform plan
+  230  vi variables.tf
+  231  terraform plan
+  232  vi variables.tf
+  233  terraform plan
+  234  terraform appy
+  235  terraform apply
+  236  cd /root
+  237  ls
+  238  cat pets.txt
+  239  cd /home/ce2-user/terraform
+  240  cd /home/ec2-user/terraform
+  241  ls
+  242  vi local.tf
+  243  vi variables.tf
+  244  terraform plan
+  245  vi variables.tf
+  246  terraform plan
+  247  terraform apply
+  248  ls
+  249  vi local.tf
+  250  vi variables.tf
+  251  vi local.tf
+  252  terraform apply
+  253  vi local.tf
+  254  vi variables.tf
+  255  terraform plan
+  256  terraform apply
+  257  clear
+  258  ls
+  259  vi local.tf
+  260  vi variables.tf
+  261  terraform output
+  262  terraform plan
+  263  terraform apply
+  264  terraform output
+  265  terraform output pet-name
+  266  ls
+  267  ls
+  268  cd terraform
+  269  ls
+  270  vi local.tf
+  271  terraform validate
+  272  vi local.tf
+  273  terraform validate
+  274  vi local.tf
+  275  terraform validate
+  276  terraform fmt
+  277  terraform format
+  278  terraform fmt
+  279  terraform show
+  280  terraform show-json
+  281  terraform show -json
+  282  terraform providers
+  283  terraform providers mirror /home/ec2-user
+  284  cd /home/ec2-user
+  285  ls
+  286  cd registry.terraform.io
+  287  ls
+  288  cd hashicorp
+  289  ls
+  290  cd /home/ec2-user
+  291  ls
+  292  rm -rf registry.terraform.io
+  293  ls
+  294  cd terraform
+  295  ls
+  296  terraform refresh
+  297  terraform graph
+  298  yum install graphviz -y
+  299  yum upgrade
+  300  yum update -y
+  301  terraform graph | dot -tsvg>graphsvg
+  302  terraform graph | dot -lsvg>graphsvg
+  303  ls
+  304  cat graphsvg
+  305  clear
+  306  terraform graph | dot -Tsvg > graph.svg
+  307  ls
+  308  cd graph.svg
+  309  cd /root
+  310  ls
+  311  cd /home/ec2-user/terraform
+  312  ls
+  313  cat graph.svg
+  314  ls
+  315  cd terraform
+  316  ls
+  317  vi local.tf
+  318  vi local.tf
+  319  terraform validate
+  320  terraform plan
+  321  terraform apply
+  322  vi local.tf
+  323  vi variables.tf
+  324  terraform plan
+  325  terraform apply
+  326  vi vm.tf
+  327  terraform plan
+  328  vi vm.tf
+  329  vi local.tf
+  330  terraform plan
+  331  vi local.tf
+  332  vi local.tf
+  333  terraform plan
+  334  terraform init -upgrade
+  335  terraform plan
+  336  ls
+  337  vi local.tf
+  338  terraform plan
+  339  vi local.tf
+  340  terraform refresh
+  341  terraform init -upgrade
+  342  terraform refresh
+  343  ls
+  344  vi vm.tf
+  345  rm vm.tf
+  346  ls
+  347  terraform refresh
+  348  terraform plan
+  349  terraform apply
+  350  ls
+  351  ls
+  352  cd terraform
+  353  ls
+  354  ls
+  355  cd terraform
+  356  ls
+  357  vi
+  358  vi local.tf
+  359  terraform output
+  360  terraform refresh
+  361  terraform output
+  362  vi local.tf
+  363  terraform plan
+  364  terraform validate
+  365  vi local.tf
+  366  terraform plan
+  367  vi local.tf
+  368  vi local.tf
+  369  terraform plan
+  370  vi variables.tf
+  371  terraform output
+  372  terraform plan
+  373  vi variables.tf
+  374  terraform output
+  375  terraform output
+  376  vi variables.tf
+  377  terraform output
+  378  terraform plan
+  379  terraform apply
+  380  vi variables.tf
+  381  terraform plan
+  382  terraform output
+  383  vi local.tf
+  384  terraform output
+  385  terraform plan
+  386  terraform apply
+  387  df -h
+  388  ls
+  389  cd terraform
+  390  ls
+  391  vi local.tf
+  392  vi variables.tf
+  393  vi local.tf
+  394  terraform plan
+  395  terraform validate
+  396  vi local.tf
+  397  vi variables.tf
+  398  terraform validate
+  399  terraform plan
+  400  terraform apply
+  401  pwd
+  402  cd /root
+  403  ls
+  404  cat cats.txt
+  405  cd /home/ec2-user/terraform
+  406  ls
+  407  vi variables.tf
+  408  t
+  409  terraform output
+  410  ls
+  411  cd terraform
+  412  ls
+  413  rm graph.svg graphsvg
+  414  ls
+  415  vi aws.tf
+  416  ls
+  417  vi local.tf
+  418  vi aws.tf
+  419  terraform init
+  420  clear
+  421  clear
+  422  ls
+  423  vi aws.tf
+  424  terraform validate
+  425  vi aws.tf
+  426  terraform validate
+  427  vi aws.tf
+  428  terraform validate
+  429  terraform plan
+  430  terraform apply
+  431  terraform apply
+  432  ls
+  433  vi aws.tf
+  434  vi aws.tf
+  435  terraform apply
+  436  ls
+  437  ls
+  438  cd terraform
+  439  ls
+  440  vi aws.tf
+  441  ls -la
+  442  clear
+  443  clear
+  444  vi aws.tf
+  445  terraform validate
+  446  vi aws.tf
+  447  terraform validate
+  448  vi aws.tf
+  449  terraform validate
+  450  clear
+  451  clear
+  452  terraform plan
+  453  terraform apply
+  454  vi aws.tf
+  455  terraform validate
+  456  vi aws.tf
+  457  terraform validate
+  458  terraform apply
+  459  vi aws.tf
+  460  terraform apply
+  461  clear
+  462  clear
+  463  vi aws.tf
+  464  terraform apply
+  465  clear
+  466  clear
+  467  vi aws.tf
+  468  terraform destroy -target aws_subnet.vs_2
+  469  terraform apply
+  470  vi aws.tf
+  471  terraform apply
+  472  vi aws.tf
+  473  terraform apply
+  474  ls
+  475  terraform plan
+  476  vi aws.tf
+  477  terraform plan
+  478  vi aws.tf
+  479  terraform plan
+  480  vi aws.tf
+  481  terraform apply -auto-approve
+  482  vi aws.tf
+  483  terraform apply -auto-approve
+  484  terraform destroy
+  485  ls
+  486  rm local.tf
+  487  ls
+  488  terraform plan
+  489  clear
+  490  clear
+  491  ls
+  492  cat terraform.tfstate
+  493  cat terraform.tfstate.backup
+  494  clear
+  495  clear
+  496  terraform apply -auto-approve
+  497  cat terraform.tfstate
+  498  cat terraform.tfstate.backup
+  499  clear
+  500  clear
+  501  terraform state
+  502  terraform state -list
+  503  terraform state list
+  504  vi aws.tf
+  505  terraform destroy
+  506  vi aws.tf
+  507  terraform apply
+  508  vi aws.tf
+  509  vi aws.tf
+  510  terraform apply
+  511  terraform output
+  512  vi aws.tf
+  513  terraform apply
+  514  clear
+  515  clear
+  516  ls
+  517  vi aws.tf
+  518  terraform apply -var sn-cidr-block = 10.0.3.0/24
+  519  terraform apply -var "sn-cidr-block = 10.0.3.0/24"
+  520  terraform apply -var "sn-cidr-block=10.0.3.0/24"
+  521  vi aws.tf
+  522  ls
+  523  vi variables.tf
+  524  vi terraform.tfvars
+  525  vi terraform.tfvars
+  526  terraform apply
+  527  ls
+  528  mv terraform.tfvars terraform-dev.tfvars
+  529  ls
+  530  ls
+  531  cd /terraform
+  532  ls
+  533  cd terraform
+  534  ls
+  535  ls
+  536  cd terraform
+  537  ls
+  538  vi aws.tf
+  539  vi aws.tf
+  540  export AWS_ACCESS_KEY_ID = "AKIARRXBX645ASYO7FUN"
+  541   export AWS_SECRET_ACCESS_KEY = "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"
+  542  clear
+  543  clear
+  544  export AWS_ACCESS_KEY_ID="AKIARRXBX645ASYO7FUN"
+  545  export AWS_SECRET_ACCESS_KEY="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"
+  546  export AWS_DEFAULT_REGION="ap-south-1"
+  547  terraform validate
+  548  terraform apply
+  549  ls
+  550  vi aws.tf
+  551  export TF_VAR_az="ap-south-1a"
+  552  ls
+  553  terraform validate
+  554  export TF_VAR_az="ap-south-1b"
+  555  terraform apply
+  556  history
+
